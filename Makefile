@@ -3,9 +3,11 @@ deb http://be.deb.devuan.org/merged ascii main contrib non-free
 
 apt-get update
 apt-get install dhewm3 
+apt-get install wine
 
-Copy the 3 cdroms to one DVD, and install it.
-Once done, you can do copy the base/* pak004 to the base of dhewm3
+
+Copy the cdroms to one DVD into path of /media/cdrom, and install it as usually using wine.
+Once done, you can do copy the base/* pak004 to the base of dhewm3 (see below).
 
 You can then add the 5-8 pak files.
 which are some on github.
